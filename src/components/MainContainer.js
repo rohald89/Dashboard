@@ -1,5 +1,6 @@
 
 import styled from 'styled-components';
+import LineChart from './LineChart';
 
 const MainStyles = styled.main`
     grid-area: main;
@@ -9,7 +10,7 @@ const MainStyles = styled.main`
 const MainContainer = () => {
     return (
         <MainStyles>
-            Main
+            <LineChart />
         </MainStyles>
     )
 }
